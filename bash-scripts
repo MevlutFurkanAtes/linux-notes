@@ -1,1 +1,12 @@
+disk_usage.sh
+#!/bin/bash
 
+echo "Disk Usage:"
+df -h
+
+echo ""
+
+echo "Memory Usage:"
+free -h
+
+Add disk usage script
