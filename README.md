@@ -56,3 +56,44 @@ Output:
 ```
 ERROR Timeout occurred
 ```
+## Day 2 - System Monitoring
+
+### free -h
+Display memory usage.
+
+```bash
+free -h
+```
+
+---
+
+### df -h
+Display disk usage.
+
+```bash
+df -h
+```
+
+---
+
+### systemctl status ssh
+Check SSH service status.
+
+```bash
+systemctl status ssh
+```
+
+---
+
+### journalctl -u ssh
+Display SSH logs.
+
+```bash
+journalctl -u ssh
+```
+
+Exit:
+
+```
+q
+```
